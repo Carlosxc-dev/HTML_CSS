@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+
+    <style>
+        body{
+            width: 99%;
+        }
+
+        .bloco{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 70%;
+            height: 500px;
+            border: 5px solid black;
+            justify-content: left;
+
+            align-content: flex-start;
+        }
+        
+        div{
+            border: 5px solid black;
+            background-color: honeydew;
+            font-size: 1.5em;
+            padding: 5px;
+            margin: 10px;
+        }
+        .bloco div:nth-child(3){
+            background-color: coral;
+            order: 1;
+            align-self: flex-start;
+        }
+
+        .item{
+            flex-grow: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bloco">
+        <div class="item">caixa 1</div>
+        <div class="ordem">caixa 2</div>
+        <div>caixa 3</div>
+        <div>caixa 4</div>
+        <div>caixa 5</div>
+        <div>caixa 6</div>
+        <div>caixa 7</div>
+        <div>caixa 8</div>
+        <div>caixa 9</div>
+        <div>caixa 10</div>
+        <div>caixa11</div>
+    </div>
+</body>
+</html>
