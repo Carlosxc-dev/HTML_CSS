@@ -1,0 +1,24 @@
+.conteiner .item, .conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner .item, .conteiner {
+  border: 3px black solid;
+}
+
+.conteiner {
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+}
+.conteiner .item {
+  background-color: #1100ff;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
