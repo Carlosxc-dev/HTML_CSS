@@ -1,0 +1,24 @@
+{
+  "name": "html_css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlosxc-dev/HTML_CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlosxc-dev/HTML_CSS/issues"
+  },
+  "homepage": "https://github.com/Carlosxc-dev/HTML_CSS#readme",
+  "dependencies": {
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
