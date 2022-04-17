@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+        }
+        
+        main{
+            background-color: blueviolet;
+            /* height: 500px; */
+            min-height: 50%;
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        section{
+            height: 200px;
+            flex: 0 1 200px;
+            background-color: blue;
+            margin: 10px;
+            border-radius: 5%;
+            transition-duration: .5s;
+        }
+
+        section:hover{
+            transform: rotateX(5deg)
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>1</section>
+        <section>2</section>
+        <section>3</section>
+        <section>4</section>
+        <section>1</section>
+        <section>2</section>
+        <section>3</section>
+        <section>4</section>
+    </main>
+</body>
+
+</html>
